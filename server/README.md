@@ -1,24 +1,29 @@
+Hier ist die Übersetzung:
+
+---
+
 # privateGPT Server
 
-A Flask application to manage your privateGPT instance.
+Eine Flask-Anwendung, um Ihre privateGPT-Instanz zu verwalten.
 
-## MacOS Installation Notes
+## Installationshinweise für MacOS
 
-Ensure you run:
+Stellen Sie sicher, dass Sie folgendes ausführen:
 
 ```sh
 pip install urllib3==1.26.6
 ```
 
-To fix the lingering OpenSSL issue.
+Um das anhaltende OpenSSL-Problem zu beheben.
 
-Now, you can execute:
+Jetzt können Sie ausführen:
 
 ```sh
 python privateGPT.py
 ```
 
-The server should be running on Port 5000.
+Der Server sollte auf Port 5000 laufen.
 
-If port 5000 is in use, on your Mac go to System Settings > Airdrop and Handoff
-and disable the Airplay Receiver as it runs on port 5000.
+Wenn Port 5000 bereits verwendet wird, gehen Sie auf Ihrem Mac zu Systemeinstellungen > Airdrop und Handoff und deaktivieren Sie den Airplay-Empfänger, da er auf Port 5000 läuft. 
+
+---

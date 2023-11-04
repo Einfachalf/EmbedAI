@@ -1,33 +1,37 @@
+Hier ist die Übersetzung:
+
+---
+
 # PrivateGPT
 
-Create a QnA chatbot on your documents without relying on the internet by utilizing the capabilities of local LLMs. Ensure complete privacy and security as none of your data ever leaves your local execution environment. Seamlessly process and inquire about your documents even without an internet connection. Inspired from [imartinez](https://github.com/imartinez)
+Erstellen Sie einen QnA-Chatbot für Ihre Dokumente, ohne sich auf das Internet zu verlassen, indem Sie die Fähigkeiten lokaler LLMs nutzen. Gewährleisten Sie vollständige Privatsphäre und Sicherheit, da keine Ihrer Daten jemals Ihre lokale Ausführungsumgebung verlässt. Verarbeiten und erkundigen Sie sich nahtlos über Ihre Dokumente, auch ohne Internetverbindung. Inspiriert von [imartinez](https://github.com/imartinez)
 
 <img width="948" alt="pgpt" src="https://github.com/SamurAIGPT/privateGPT/assets/4326215/76e24cd4-a890-4253-bb87-098c4f1328fd">
 
-## Contents
+## Inhaltsverzeichnis
 
-* [Getting started](#getting-started)
-* [Requirements](#requirements)
-* [How to run](#how-to-run)
-* [Support](#support)
-* [Data](#data)
-* [Check repos](#check-repos)
+* [Erste Schritte](#erste-schritte)
+* [Anforderungen](#anforderungen)
+* [Ausführung](#ausführung)
+* [Unterstützung](#unterstützung)
+* [Daten](#daten)
+* [Repos überprüfen](#repos-überprüfen)
 
-## Getting started
+## Erste Schritte
 
-Code is up, ⭐ (Star) the repo meanwhile to receive updates
+Der Code ist online, ⭐ (Stern) das Repo in der Zwischenzeit, um Updates zu erhalten.
 
-Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) on twitter for updates
+Folgen Sie [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) auf Twitter für Updates.
 
-## Requirements
+## Anforderungen
 
-* Python 3.8 or later
-* NodeJS v18.12.1 or later
-* Minimum 16GB of memory
+* Python 3.8 oder neuer
+* NodeJS v18.12.1 oder neuer
+* Mindestens 16GB Speicher
 
-## How to run
+## Ausführung
 
-1. Go to client folder and run the below commands
+1. Gehen Sie zum Client-Ordner und führen Sie die folgenden Befehle aus:
 
    ```shell
    npm install   
@@ -37,7 +41,7 @@ Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Sin
    npm run dev
    ```
 
-2. Go to server folder and run the below commands
+2. Gehen Sie zum Server-Ordner und führen Sie die folgenden Befehle aus:
 
    ```shell
    pip install -r requirements.txt
@@ -47,35 +51,37 @@ Follow [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Sin
    python privateGPT.py
    ```
 
-3. Open <http://localhost:3000>, click on download model to download the required model initially
+3. Öffnen Sie <http://localhost:3000>, klicken Sie auf Modell herunterladen, um das erforderliche Modell zuerst herunterzuladen.
 
-4. Upload any document of your choice and click on Ingest data. Ingestion is fast
+4. Laden Sie ein beliebiges Dokument Ihrer Wahl hoch und klicken Sie auf Daten einlesen. Das Einlesen ist schnell.
 
-5. Now run any query on your data. Data querying is slow and thus wait for sometime
+5. Führen Sie jetzt eine beliebige Abfrage zu Ihren Daten aus. Datenabfragen sind langsam, warten Sie also eine Weile.
 
-## Support
+## Unterstützung
 
-Join our discord <https://discord.gg/A6EzvsKX4u> to get support
+Treten Sie unserem Discord <https://discord.gg/A6EzvsKX4u> bei, um Unterstützung zu erhalten.
 
-## Data
+## Daten
 
-The supported extensions for documents are:
+Die unterstützten Erweiterungen für Dokumente sind:
 
 * .csv: CSV,
-* .docx: Word Document,
+* .docx: Word-Dokument,
 * .enex: EverNote,
-* .eml: Email,
+* .eml: E-Mail,
 * .epub: EPub,
-* .html: HTML File,
+* .html: HTML-Datei,
 * .md: Markdown,
-* .msg: Outlook Message,
+* .msg: Outlook-Nachricht,
 * .odt: Open Document Text,
 * .pdf: Portable Document Format (PDF),
-* .pptx : PowerPoint Document,
-* .txt: Text file (UTF-8),
+* .pptx : PowerPoint-Dokument,
+* .txt: Textdatei (UTF-8),
 
-## Check repos
+## Repos überprüfen
 
-* [Langchain Course](https://github.com/SamurAIGPT/langchain-course)
-* [ChatGPT Developer Plugins](https://github.com/SamurAIGPT/ChatGPT-Developer-Plugins)
+* [Langchain Kurs](https://github.com/SamurAIGPT/langchain-course)
+* [ChatGPT Entwickler-Plugins](https://github.com/SamurAIGPT/ChatGPT-Developer-Plugins)
 * [Camel AGI](https://github.com/SamurAIGPT/Camel-AutoGPT)
+
+---
